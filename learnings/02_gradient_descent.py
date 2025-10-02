@@ -1,4 +1,4 @@
-#! /home/glacroix/Documents/linear_regression/venv/bin/python3
+#!/Users/pgcl/Documents/DEV/outerCore/ft_linear_regression/venv/bin/python3
 
 import pandas as pd
 
@@ -28,5 +28,6 @@ for i in range(iterations):
 
     m -= L * D_m
     b -= L * D_b
-    
+    print("y = {0}x + {1}".format(m, b))
+
 print("y = {0}x + {1}".format(m, b))
